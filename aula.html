@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>aula</title>
+	</head>
+
+	<body bgcolor="#e5efef">
+		<h1>Tabela</h1>
+		
+		<table border="5" cellspacing="10" align="center">
+			
+			<!--título da tabela-->
+			<caption>título</caption>
+		
+			<!--cabeçalho da tabela-->
+			<thead> 
+				<tr> <!--linha 1-->
+					<th bgcolor="#ADD8E6">Coluna 1</th>
+					<th bgcolor="#86007d">Coluna 2</th>
+					<th bgcolor="#FFFF00">Coluna 3</th>
+				</tr>
+			</thead>
+			
+			<!--corpo da tabela-->
+			<tbody>
+				<tr> <!--linha 2-->
+					<td bgcolor="#FFC0CB">CÉLULA 1</td>
+					<td bgcolor="#33d81a">CÉLULA 2</td>
+					<td rowspan="2" bgcolor="#a31ad8">CÉLULA 3</td>
+				</tr>
+				
+				<tr> <!--linha 3-->
+					<td bgcolor="#d568ff">CÉLULA 4</td>
+					<td bgcolor="#00f9fe">CÉLULA 5</td>
+					<!--<td>CÉLULA 6</td> célula mesclada-->
+				</tr>
+			</tbody>
+			
+			<!--rodapé-->
+			<tfoot>
+				<tr> <!--linha 4-->
+					<td colspan="2" bgcolor="#fae404">Célula mesclada</td>
+					<td bgcolor="#ff5733">última célula</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<br>
+		<hr>
+		<a href="https://www.google.com">Acesse o Google</a>
+		<br>
+		<a href="https://g1.globo.com/" target="_blank" rel="noopener noreferrer">Acesse o G1</a>
+	</body>
+</html>
