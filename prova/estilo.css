@@ -1,0 +1,32 @@
+body{
+    background-color: #ffebd4;
+}
+
+#menu{
+    background-color: black;
+}
+
+tr{
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td{
+    color: white;
+    text-decoration: none;
+}
+
+#rodape{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    text-align: center;
+}
